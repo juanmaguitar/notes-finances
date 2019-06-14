@@ -1,0 +1,30 @@
+{
+  "name": "notes-master-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook install && gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainings-juanmaguitar/notes-master-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trainings-juanmaguitar/notes-master-blockchain/issues"
+  },
+  "homepage": "https://github.com/trainings-juanmaguitar/notes-master-blockchain#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-github-issue-feedback": "^1.3.2"
+  }
+}

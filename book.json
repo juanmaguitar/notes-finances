@@ -1,0 +1,18 @@
+{
+  "root": "./docs",
+  "plugins": ["anchorjs", "noembed", "embed-pdf", "toggle-chapters",  "github-issue-feedback"],
+  "pluginsConfig": {
+    "github-issue-feedback": {
+      "repo": "azu/gitbook-plugin-github-issue-feedback"
+    },
+    "anchorjs": {
+      "selector": "h2,h3,h4,h5",
+      "icon": "#",
+      "placement": "left",
+      "visible": "always",
+      "class": "custom-class another-one",
+      "truncate": 64,
+      "ariaLabel": "Anchor"
+    }
+  }
+}
